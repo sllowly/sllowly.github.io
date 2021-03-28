@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Sobre a pagina, fundo e essas coisas...*/
+
+* {
+  margin: 0px;
+}
+.page {
+  Width: 100vw;
+  height: 100vh;
+  background: rgb(255,90,90);
+  background: linear-gradient(142deg, rgba(255,90,90,1) 0%, rgba(185,38,38,1) 42%, rgba(34,98,143,1) 81%, rgba(64,131,179,1) 100%);
+}
+.contents {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.background {
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  Width: 500px;
+  height: 320px;
+  border-radius: 13px;
+  box-shadow: 3px 3px 9px -1px rgba(0,0,0,0.90);
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  Width: 500px;
+  height: 320px;
+}
+
+/* Sobre o Perfil esquerdo */
+
+.profile {
+  position: absolute;
+  font-weight: 100;
+  left: 0px;
+  top: 0px;
+  Width: 200px;
+  height: 320px;
+}
+.avatar-profile {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  Width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("profile.jpg");
+  background-size: 100px 100px;
+}
+.info-profile {
+  position: absolute;
+  width: 200px;
+  top: 145px;
+}
+.info-name {
+  text-align: center;
+  font-size: 25px;
+}
+.info-email {
+  text-align: center;
+  font-size: 13px;
+}
+.info-email a {
+  text-decoration: none;
+  color: white;
+}
+.info-contact {
+  position: absolute;
+  font-size: 18px;
+  width: 200px;
+  top: 70px;
+  left: 30px;
+}
+.git {
+  position: absolute;
+  background-image: url("gith.png");
+  background-size: 35px 35px;
+  top: 15px;
+  Width: 35px;
+  height: 35px;
+}
+.linkedin {
+  position: absolute;
+  background-image: url("linkid.png");
+  background-size: 35px 35px;
+  top: 15px;
+  left: 50px;
+  Width: 35px;
+  height: 35px;
+}
+.twitter {
+  position: absolute;
+  background-image: url("twtr.png");
+  background-size: 35px 35px;
+  top: 15px;
+  left: 100px;
+  Width: 35px;
+  height: 35px;
+}
+.line {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  height: 290px;
+  border-right: 2px solid;
+  border-color: white;
+}
+
+/* Sobre o Menu direito */
+
+.tabs {
+  position: absolute;
+  Width: 270px;
+  height: 290px;
+  top: 15px;
+  right: 15px;
+}
+.tabs a:hover {
+  transition: 0.6s;
+  background-color: rgba(255 255 255 / 35%);
+  }
+#home a {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+#home {
+  display: block;
+  position: absolute;
+  Width: 270px;
+  height: 290px;
+}
+#sob {
+  display: none;
+  position: absolute;
+  Width: 270px;
+  height: 290px;
+}
+#hab {
+  display: none;
+  position: absolute;
+  Width: 270px;
+  height: 290px;
+}
+#edu {
+  display: none;
+  position: absolute;
+  Width: 270px;
+  height: 290px;
+}
+#exp {
+  display: none;
+  position: absolute;
+  Width: 270px;
+  height: 290px;
+}
+
+.BackToMenu {
+  position: absolute;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  padding: 10px;
+  font-size: 14px;
+  border:solid 1px;
+  border-radius:6px 0px 0px 6px;
+}
+
+
+.title {
+  position: absolute;
+  right: 0px;
+  font-size: 25px;
+  width: 239px;
+  height: 40px;
+  border:solid 1.5px;
+  border-radius:0px 6px 6px 0px;
+  text-align: center;
+}
+.MenuBody {
+  position: absolute;
+  overflow:auto; 
+  width: 270px;
+  height: 235px;
+  top: 55px;
+}
+
+::-webkit-scrollbar {
+ width: 6px;
+ border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+ background: rgb(255 253 253 / 57%);
+ border-radius: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 17px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
